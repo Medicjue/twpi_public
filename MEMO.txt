@@ -1,0 +1,52 @@
+https://pypi.org/project/ckiptagger/
+
+
+
+https://ithelp.ithome.com.tw/articles/10254164
+
+https://keras.io/examples/nlp/text_classification_with_transformer/
+
+
+2022/06/19
+Fix data preprocessing
+Finish 1st transformer model build
+
+2022/06/20
+Finish draft judger python class, however, the result need to verify
+Confirm output array will be [ probability of 0, probability of 1 ]
+Predict political related sentences, seems need modification, need to prepare retrain material
+
+2022/06/21
+1st ver. twitter crawler using curl
+quick integration to combine crawler and sentiment judge and generate a sample csv for later usage
+lots of duplication from crawler, need to dedup
+
+2022/06/22
+Change to laptop and missing required key file, delay progress
+POC mongodb online connection and inset/query
+
+2022/06/23
+SSD has issue that cannot accessed by my laptop
+1st draft version of crawler and mongodb integration
+
+2022/06/24
+Revise crawler to crawl all keywords
+
+2022/06/25
+Impl. script to prepare political data to be labeled
+Impl. 1st draft ver. end-to-end aggregation script
+(Draft) twpi_score = sum of sentiment score * count of the given keyword
+Refactor MongoDB DAO
+Upload aggregate information to MongoDB
+
+2022/06/26
+Query result from MongoDB
+1st draft version data studio dashboard
+
+2022/06/27~30
+Integrate Google API to export result to Google Spreadsheet as the source of data studio
+Draft model trainer migrated from colab w/ issue, need to clarify
+
+2022/07/01
+Fix crawler integration issue
+Draft blog of project initiation
